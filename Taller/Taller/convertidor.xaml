@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Taller.convertidor">
+    <Grid BackgroundColor="#FDE07F">
+        <StackLayout  VerticalOptions="Center" Margin="40">
+            <Image Source="https://o.remove.bg/downloads/2542511f-b43f-4cd3-b1ec-02a02a22f5b6/user_icon_007-removebg-preview.png"/>
+            <Label Text="Usuario:" HorizontalOptions="Center" FontSize="Large" FontAttributes="Bold"/>
+            <Frame HasShadow="False">
+                
+                <Entry  BackgroundColor="White" />
+            </Frame>
+            <Label Text="Password:"
+                   HorizontalOptions="Center"
+                   FontSize="Large"
+                   FontAttributes="Bold" />
+            <Frame HasShadow="False">
+                <Entry  BackgroundColor="White" IsPassword="True"/>
+            </Frame>
+        </StackLayout>
+    </Grid>
+    
+</ContentPage>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Taller.MainPage">
+
+    <StackLayout BackgroundColor="#FEE6B8">
+        <Label Text="Conversor" HorizontalOptions="Center" FontSize="40" FontAttributes="Bold"/>
+        <Frame Margin="20" VerticalOptions="FillAndExpand" CornerRadius="20" HasShadow="False">
+            <StackLayout Spacing="20">
+                <Image Source="https://w7.pngwing.com/pngs/921/994/png-transparent-computer-icons-user-customer-others-thumbnail.png" />
+                <Label Text="(CM) a (M)" HorizontalOptions="Center" TextDecorations="Underline" FontSize="20" />
+                <Button Text="Iniciar"
+                        Clicked="Button_Clicked"
+                        BackgroundColor="#ADE080"
+                        CornerRadius="10"
+                        FontSize="Medium"
+                        FontAttributes="Bold"
+                        Margin="0,20" />
+            </StackLayout>
+
+        </Frame>
+
+    </StackLayout>
+
+</ContentPage>
