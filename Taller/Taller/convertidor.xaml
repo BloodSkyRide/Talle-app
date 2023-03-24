@@ -17,6 +17,7 @@
             <Frame HasShadow="False">
                 <Entry  BackgroundColor="White" IsPassword="True"/>
             </Frame>
+            <Button Text="Enviar" BackgroundColor="Azure" CornerRadius="10" FontAttributes="Bold"/>
         </StackLayout>
     </Grid>
     
